@@ -1,0 +1,15 @@
+list1 = input("Enter the first list of strings separated by space: ").split()
+list2 = input("Enter the second list of strings separated by space: ").split()
+concatenated_list = []
+print(list1)
+print(list2)
+for i in range(len(list1)):
+    concatenated_list.append(list1[i] + list2[i])
+print("Concatenated List:", concatenated_list)
+
+#output
+Enter the first list of strings separated by space: M na i Abhi
+Enter the second list of strings separated by space: y me s Ram
+['M', 'na', 'i', 'Abhi']
+['y', 'me', 's', 'Ram']
+Concatenated List: ['My', 'name', 'is', 'AbhiRam']
