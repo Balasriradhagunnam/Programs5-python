@@ -1,0 +1,14 @@
+lst=list(map(int,input("Enter the values seperated with spaces: ").split()))
+print(lst)
+sum=0
+for i in lst:
+    sum+=i
+print("Sum is",sum)
+avg=sum//len(lst)
+print("Average is",avg)
+
+#output
+Enter the values seperated with spaces: 1 2 3 4 5
+[1, 2, 3, 4, 5]
+Sum is 15
+Average is 3
