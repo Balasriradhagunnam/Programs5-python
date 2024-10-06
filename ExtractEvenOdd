@@ -1,0 +1,17 @@
+lst=list(map(int,input("Enter a value with spaces").split()))
+print(f"Actual list is {lst}")
+even=[]
+odd=[]
+for i in lst:
+    if i%2==0:
+        even.append(i)
+    else:
+        odd.append(i)
+print(f"Even list is {even}")
+print(f"Odd list is {odd}")
+
+#output
+Enter a value with spaces1 2 3 4 5 6
+Actual list is [1, 2, 3, 4, 5, 6]
+Even list is [2, 4, 6]
+Odd list is [1, 3, 5]
