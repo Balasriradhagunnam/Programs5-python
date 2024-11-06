@@ -1,0 +1,19 @@
+n=int(input("enter a value: "))
+temp=n
+sum=0
+for i in range(1,n):
+    if(n%i==0):
+        sum+=i
+if(temp==sum):
+    print("It is a perfect number")
+else:
+    print("It is not a perfect number")
+
+
+#output1
+enter a value: 6
+It is a perfect number
+
+#output2
+enter a value: 10
+It is not a perfect number
