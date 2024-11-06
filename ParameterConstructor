@@ -1,0 +1,18 @@
+n1=int(input("enter x value:"))
+n2=int(input("enter y value:"))
+class constructor:
+	def para(self,n1,n2):
+		self.x=n1
+		self.y=n2
+	def display(self):
+		print("x value is",self.x)
+		print("y value is",self.y)
+p=constructor()
+p.para(n1,n2)
+p.display()
+
+#output
+enter x value:10
+enter y value:20
+x value is 10
+y value is 20
