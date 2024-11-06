@@ -1,0 +1,19 @@
+T=int(input("Enter number of terms:"))
+n1,n2=0,1
+count=0
+print("Fibonacci series are")
+while count<T:
+  print(n1)
+  n3=n1+n2
+  n1=n2
+  n2=n3
+  count+=1
+
+#output
+Enter number of terms:5
+Fibonacci series are
+0
+1
+1
+2
+3
