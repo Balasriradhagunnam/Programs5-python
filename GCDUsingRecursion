@@ -1,0 +1,13 @@
+def gcd_recursion(a,b):
+	if b==0:
+		return a
+	else:
+		return gcd_recursion(b,a%b)
+num1=int(input("Enter a value"))
+num2=int(input("Enter b value"))
+print(f"The GCD value of {num1} and {num2} is {gcd_recursion(num1,num2)}")
+
+#output
+#Enter a value 48
+#Enter b value 18
+#The GCD value of 48 and 18 is 6
