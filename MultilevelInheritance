@@ -1,0 +1,29 @@
+x=int(input("Enter x value:"))
+y=int(input("Enter y value:"))
+z=int(input("Enter z value:"))
+class A:
+	def show1(self,x):
+		self.a=x
+class B(A):
+	def show2(self,y):
+		self.b=y
+class C(B):
+	def show3(self,z):
+		self.c=z
+	def display(self):
+		print("x value is",self.a)
+		print("y value is",self.b)
+		print("z value is",self.c)
+ml= C()
+ml.show1(x)
+ml.show2(y)
+ml.show3(z)
+ml.display()
+
+#output
+Enter x value:10
+Enter y value:20
+Enter z value:30
+x value is 10
+y value is 20
+z value is 30
