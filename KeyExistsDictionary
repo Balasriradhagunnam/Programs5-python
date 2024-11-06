@@ -1,0 +1,12 @@
+key=int(input("Enter your key value"))
+dic={1:'a',2:'b',3:'c'}
+print("The Dictionary is",dic)
+if key in dic:
+	print("Key is Present")
+else:
+	print("Key is not present")
+
+#output
+#Enter your key value 3
+#The Dictionary is {1:'a',2:'b',3:'c'}
+#Key is Present
