@@ -1,0 +1,17 @@
+def fibonocci(n):
+	if n<=1:
+		return n
+	else:
+		return (fibonocci(n-1) +fibonocci(n-2))
+num=int(input("enter a value"))
+if num<=0:
+	print("Please enter a positive number")
+else:
+	print("Fibonocci series are")
+	for i in range(num):
+		print(fibonocci(i),end=' ')
+
+  
+  #Output
+  #Fibonocci series are
+  # 0 1 1 2 3 
