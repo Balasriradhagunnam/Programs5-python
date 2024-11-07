@@ -59,9 +59,6 @@ with open('example.csv', 'r') as file:
     for row in reader:
         print(row)
 # Output
-# ['Name', 'Marks', 'Grade']
-# ['Alice', '85', 'B']
-# ['Bob', '75', 'C']
-# ['Charlie', '92', 'A']
-
-      
+# ["Name", "Age", "City"]
+# ["John", 28, "newyork"]
+# ["Sara", 22, "losangles"]
